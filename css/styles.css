@@ -11,52 +11,86 @@
  body background: off-white #fefcfd
  
  */
+ /* On small screens, set height to 'auto' for sidenav and grid */
 
-  /* On small screens, set height to 'auto' for sidenav and grid */
-  
-    
-.row.content {height:auto;} 
-  
-body {
-  max-width: 90%;
-  align: center;
-}
-
-div {
-  border: solid black;
-}
-
-/* Remove the navbar's default margin-bottom and rounded borders */ 
-.navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-  }
-  
-  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-  .row.content {height: 450px}
-  
-  /* Set gray background color and 100% height */
-  .sidenav {
-    height: auto;
-    padding: 15px;
-    padding-top: 20px;
-    background-color: #f1f1f1;
-    /* height: 100%; */
-  }
-  
-  /* Set black background color, white text and some padding */
-  footer {
-    background-color: #0c2745;
-    color: white;
-    padding: 15px;
-    height: auto;
-  }
-
-  footer > img {
-    float: center;
-  }
-  
-  html {
-    background-color: #213c5c;
-  }
-
+ @media only screen and (min-width: 768px) {
+     .row.content {
+         height: auto;
+     }
+     body {
+         max-width: 90%;
+     }
+     div {
+         border: solid black;
+     }
+     /* Remove the navbar's default margin-bottom and rounded borders */
+     .navbar {
+         margin-bottom: 0;
+         border-radius: 0;
+     }
+     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+     .row.content {
+         height: 450px
+     }
+     /* Set gray background color and 100% height */
+     .sidenav {
+         height: auto;
+         padding: 15px;
+         padding-top: 20px;
+         background-color: #f1f1f1;
+         /* height: 100%; */
+     }
+     /* Set black background color, white text and some padding */
+     footer {
+         background-color: #0c2745;
+         color: white;
+         padding: 15px;
+         height: auto;
+     }
+     footer>img {
+         float: center;
+     }
+     h1,
+     h2,
+     h3,
+     h5,
+     h6 {
+         color: #d4740d !important;
+     }
+     h1 {
+         font-size: 27pt !important;
+         color: #1e1d1d !important;
+     }
+     h4 {
+         font-size: 15pt !important;
+         background-color: #091f37;
+         text-align: center;
+     }
+     .donate {
+         width: 240px;
+         height: auto;
+     }
+     html {
+         background-color: #213c5c;
+         font-size: 1em !important;
+     }
+     img {
+         width: 100%;
+         height: 100%;
+     }
+     li {
+         font-size: 11px;
+     }
+     .outer-main {
+         color: white !important;
+         background-color: #213c5c;
+         font-size: 10px;
+     }
+     p {
+         font-size: 12px;
+     }
+     .side-img {
+         height: 100%;
+         width: auto;
+     }
+ }
