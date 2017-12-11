@@ -40,22 +40,30 @@
  }
  /* Set gray background color and 100% height */
 
+ #aside-link {
+     padding-left: 25px;
+ }
+
  #bhs-logo {
      z-index: 2;
      position: absolute;
+     top: 10px;
  }
 
  .body-padding {
      top: 300px;
  }
 
- .centered {
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     /* transform: translate(-50%, -50%); */
-     z-index: 4;
+ .card-block {
+     background-color: #e9e8e8;
  }
+
+ /* .centered {
+     position: absolute;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 4;
+ } */
 
  .container {
      position: relative !important;
@@ -92,23 +100,31 @@
  }
 
  h1 {
-     font-size: 27pt !important;
+     font-size: 20pt !important;
      color: #1e1d1d !important;
+     font-family: "adobe-caslon-pro", serif !important;
+     font-style: normal;
+     font-weight: 500;
  }
 
  h2 {
-     font-size: 18px !important;
+     font-size: 17px !important;
+     color: #d4740d !important;
+     font-family: "adobe-caslon-pro", serif !important;
+     font-style: normal;
+     font-weight: 500;
  }
 
  h3 {
-     font-size: 20px !important;
+     font-size: 19px !important;
      color: #173f6b !important;
  }
 
  h4 {
-     font-size: 10pt !important;
-     background-color: #091f37;
+     font-size: 12pt !important;
      text-align: center;
+     background-image: url("../img/footer-bg.png");
+     padding: 5px 0px 5px 0px;
  }
 
  html {
@@ -138,7 +154,7 @@
  #nav-img {
      background-image: url("../img/navbar.png");
      position: absolute;
-     top: 100px;
+     top: 54px;
      z-index: 1;
  }
 
@@ -152,19 +168,21 @@
      background-color: #213c5c;
      font-size: 10px;
      z-index: 1;
+     height: 56px;
  }
 
  p,
  ul,
  a {
-     font-size: 12px;
+     font-size: 11.5px;
+     font-family: "Arial", sans-serif !important;
  }
 
  .sidenav {
      height: auto;
      padding: 15px;
-     padding-top: 130px;
-     background-color: #f1f1f1;
+     padding-top: 90px;
+     background-color: #fbfbfb !important;
      width: 260px;
  }
 
@@ -176,6 +194,11 @@
  .top {
      background-color: #0c2745;
      margin: 0px !important;
+ }
+
+ .top-img {
+     padding: 0px !important;
+     margin: 15px 0px 0px 78px;
  }
 
  .vertline {
